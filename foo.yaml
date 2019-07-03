@@ -1,0 +1,14 @@
+ get: 
+    tags:
+    - "StarTracker"
+    summary: "Find if the data output displayed"
+    description: "Returns the data output displayability"
+    operationId: "get_pose_display"
+    produces:
+    - "application/json"
+    responses:
+      200:
+        description: "Success"
+      404:
+        description: "Data output displayability was not found."
+        
